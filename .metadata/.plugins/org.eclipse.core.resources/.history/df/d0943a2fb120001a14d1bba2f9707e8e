@@ -1,0 +1,12 @@
+package seleniumbasic.cucumber;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features="myfeatures", glue="pdc3stepdefs")
+public class runnerPDC3 {
+	
+	
+
+}

@@ -1,0 +1,20 @@
+Feature: my validation for aws login
+
+Scenario: Registraton in AWS
+Given user is given AWS site access
+Then user enters valid data for registration
+And user clicks on signup button
+
+
+Scenario Outline: Login validation in AWS site
+Given Application is launched and user have access to login site
+Then user enters valid credentials
+And user clicks on login button
+
+Examples:
+|userID | password|
+|Akash|Rawat123|
+|Bhupen|Kumar123|
+|Chandan|Singh123|
+|Dhruv|Lobra123|
+|Ekansh|Arora123|

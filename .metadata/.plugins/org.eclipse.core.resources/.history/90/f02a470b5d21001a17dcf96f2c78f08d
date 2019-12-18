@@ -1,0 +1,54 @@
+package stepdefination;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+
+public class casestudy2 {
+	WebDriver driver;
+	@Given("user is given AWS site access b")
+	public void user_is_given_AWS_site_access_b() {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new cucumber.api.PendingException();
+	}
+
+	@Then("user enters valid data for registration b")
+	public void user_enters_valid_data_for_registration_b() {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new cucumber.api.PendingException();
+	}
+
+	@Then("user clicks on signup button b")
+	public void user_clicks_on_signup_button_b() {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new cucumber.api.PendingException();
+	}
+
+	@Given("Application is launched and user have access to login site b")
+	public void application_is_launched_and_user_have_access_to_login_site_b() {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new cucumber.api.PendingException();
+	}
+
+	@Then("user enters valid credentials {string}")
+	public void user_enters_valid_credentials(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new cucumber.api.PendingException();
+	}
+
+	@Then("user enter the password {string}")
+	public void user_enter_the_password(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new cucumber.api.PendingException();
+	}
+
+	@Then("user clicks on login button b")
+	public void user_clicks_on_login_button_b() {
+	    // Write code here that turns the phrase above into concrete actions
+	   // throw new cucumber.api.PendingException();
+	}
+
+
+}

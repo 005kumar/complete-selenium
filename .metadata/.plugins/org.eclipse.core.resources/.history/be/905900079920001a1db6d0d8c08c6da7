@@ -1,0 +1,4 @@
+Feature: my validations on mercury application
+
+scenarion: user access to signup in website
+Given Mercury  

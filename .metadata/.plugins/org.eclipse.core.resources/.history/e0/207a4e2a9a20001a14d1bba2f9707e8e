@@ -1,0 +1,11 @@
+Feature:  my validations on mercury application
+
+Scenario: user access to signup in website
+Given Mercury  website is launched
+And user click on submit button for account creation
+
+
+
+
+Scenario: user access  to login for registered Member
+Given registerde

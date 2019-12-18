@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test name="Test 1(failed)" parallel="tests">
+    <classes>
+      <class name="testNG.demosoftassert">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- testNG.demosoftassert -->
+      <class name="testNG.executionsequence">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.executionsequence -->
+      <class name="testNG.demoassertion">
+        <methods>
+          <include name="test7"/>
+          <include name="test8"/>
+          <include name="test2"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- testNG.demoassertion -->
+      <class name="testNG.LoginMercury">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.LoginMercury -->
+    </classes>
+  </test> <!-- Test 1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

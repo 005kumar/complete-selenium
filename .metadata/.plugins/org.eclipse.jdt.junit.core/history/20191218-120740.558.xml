@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="runnerPDC3" project="cucumber" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="seleniumbasic.cucumber.runnerPDC3" time="0.01">
+    <testsuite name="Feature: my validation on Mercury application" time="0.01">
+      <testcase name="user login to login for registered Member" classname="my validation on Mercury application" time="0.01">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "registered user click on cignin button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "he provides valid data for login input fields" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "Click on submit button for the login validation" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
